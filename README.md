@@ -62,56 +62,7 @@ The preprocessing pipeline includes:
 * Git
 * GitHub
 
-## 📁 Project Structure
 
-```text
-Titanic-Survival-Prediction/
-│
-├── app.py
-├── train_model.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   ├── train.csv
-│   └── test.csv
-│
-├── model/
-│   └── titanic_model.pkl
-│
-└── Images/
-    └── dashboard.png
-```
-
-## 🚀 How to Run
-
-Clone the repository:
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Train the model:
-
-```bash
-python train_model.py
-```
-
-Run the Streamlit application:
-
-```bash
-streamlit run app.py
-```
-
-## 🌐 Streamlit Application
-
-The application allows users to enter passenger information and receive a predicted survival result along with survival probability.
 
 ## 📌 Future Improvements
 
@@ -122,10 +73,4 @@ The application allows users to enter passenger information and receive a predic
 * Add feature importance visualization
 * Improve Streamlit dashboard design
 
-## 👩‍💻 Author
 
-**Sayali Sachin Sonule**
-
-Computer Engineering Student
-
-GitHub: https://github.com/sayalisonule1201-tech
